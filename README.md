@@ -1,5 +1,6 @@
 # 0x1B. C - Sorting algorithms & Big O
 <img src="clang_logo.png" alt="Clang Logo" width="100" height="100"/><img src="algo.png" alt="Clang Logo" width="100" height="100"/>
+
 The primary programming language used for this project is C.
 
 ## Learning Objectives
