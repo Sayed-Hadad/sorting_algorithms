@@ -1,0 +1,4 @@
+/* File: 2-O */
+O(n^2)  /* Best case: Selection sort has a time complexity of O(n^2) in the best case */
+O(n^2)  /* Average case: Selection sort has a time complexity of O(n^2) in the average case */
+O(n^2)  /* Worst case: Selection sort has a time complexity of O(n^2) in the worst case */
