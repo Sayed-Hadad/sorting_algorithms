@@ -1,26 +1,37 @@
-# 0x1B. C - Sorting algorithms & Big O
-<img src="clang_logo.png" alt="Clang Logo" width="100" height="100"/><img src="algo.png" alt="Clang Logo" width="100" height="100"/>
+<!-- Gradient Style -->
+<style>
+  h1, h2, h3, h4, h5, h6 {
+    background: linear-gradient(to right, #ff8c00, #ff0080);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    margin: 0;
+  }
+</style>
 
-The primary programming language used for this project is C.
+# 0x1B. C - Sorting Algorithms & Big O
+<img src="c.png" alt="Clang Logo" width="30" height="30"/> <img src="algo.png" alt="Algorithm Logo" width="30" height="30"/>
 
 ## Learning Objectives
 By the end of this project, you should be able to:
 
 - Understand at least four different sorting algorithms.
-- Comprehend the concept of Big O notation and how to evaluate the time complexity of an algorithm.
+- Comprehend the concept of Big O notation and evaluate algorithm time complexity.
 - Choose the most suitable sorting algorithm for a given input.
 - Understand the characteristics of stable sorting algorithms.
 
 ## Tasks
 
-### 0. Bubble sort
-- In Progress
+| Task | Description | Status |
+|------|-------------|--------|
+| **0. Bubble sort** |  Sort elements by repeatedly comparing and swapping adjacent elements. | ✅ |
+| **1. Insertion sort** |  Build a sorted array by inserting each element into its correct position. (Stable Sorting) | ✅|
+| **2. Selection sort** |  Divide the list, select the smallest/largest, and swap with the first unsorted element. (Unstable Sorting) | ✅ |
+| **3. Quick sort** |  Recursively sort elements using a pivot, dividing and conquering. (Unstable Sorting) | In Progress |
 
-### 1. Insertion sort
-- In Progress
+## Compilation
 
-### 2. Selection sort
-- :white_check_mark: Done
+Use the following compilation line:
 
-### 3. Quick sort
-- In Progress
+```bash
+gcc -Wall -Wextra -Werror -pedantic -std=gnu89 {entry_point_file} {function_file_name} {print_array_or_print_list_function} {output_file_name}
