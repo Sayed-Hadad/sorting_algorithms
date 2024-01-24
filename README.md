@@ -1,14 +1,3 @@
-<!-- Gradient Style -->
-<style>
-  h1, h2, h3, h4, h5, h6 {
-    background: linear-gradient(to right, #ff8c00, #ff0080);
-    -webkit-background-clip: text;
-    color: transparent;
-    display: inline-block;
-    margin: 0;
-  }
-</style>
-
 # 0x1B. C - Sorting Algorithms & Big O
 <img src="c.png" alt="Clang Logo" width="30" height="30"/> <img src="algo.png" alt="Algorithm Logo" width="30" height="30"/>
 
